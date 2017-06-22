@@ -1,0 +1,95 @@
+#top-nav{
+    width: 100%;
+    height: 65px;
+    background: black;
+}
+
+#top-nav p{
+    color: blue;
+    font-size:1.5em;
+}
+
+#top-nav p span{
+    color: red;
+}
+
+#top-nav p, #top-nav nav {
+    line-height:65px;
+}
+
+#top-nav nav a{
+    color: white;
+    font-size: 1.25em;
+}
+
+#top-nav nav a:hover{
+    text-decoration: none;
+    color: red;
+    transition: linear .5s;
+    padding-right: 15px;
+}
+
+#site-title{
+    text-align: center;
+    background: #e6e6e6;
+    padding: 25px 0px;
+    margin-top: 0px;
+}
+
+#three-images{
+    margin: 40px 0px 50px 0px;
+}
+
+#three-images img{
+    width: 100%;
+    border: 3px solid #ccc;
+    
+}
+
+#first-p{
+    text-align: justify;
+}
+
+#second-p{
+    text-align: center;
+}
+
+#three-images button{
+    float: right;
+}
+
+form{
+    text-align: center;
+}
+
+hr{
+    border-top: 3px dotted #aaa;
+}
+
+#light-grey{
+    width: 100%;
+    background: #ccc;
+}
+
+iframe{
+    margin-top: 50px;
+}
+
+iframe{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 760px;
+    height: 425px;
+    border: 2px solid #ddd;
+    box-shadow: 3px 8px 50px
+}
+
+footer{
+    background: black;
+    color: white;
+}
+
+footer p{
+    margin: 0px;
+}
